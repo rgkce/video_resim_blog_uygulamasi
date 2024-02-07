@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "849952387694",
+    "project_id": "resimblog",
+    "storage_bucket": "resimblog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849952387694:android:21a2350ad0e9a7b60a6c7f",
+        "android_client_info": {
+          "package_name": "com.example.resimblog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC5z4o6x9KRQFAas2lyVIFl_JtH92qYzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849952387694:android:c2d337c728835d490a6c7f",
+        "android_client_info": {
+          "package_name": "com.example.video_resim_blog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC5z4o6x9KRQFAas2lyVIFl_JtH92qYzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849952387694:android:837b9111629a99140a6c7f",
+        "android_client_info": {
+          "package_name": "com.example.videoblog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC5z4o6x9KRQFAas2lyVIFl_JtH92qYzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
