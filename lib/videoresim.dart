@@ -49,9 +49,10 @@ class _ButonEkraniState extends State<ButonEkrani> {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
+    return Column(
       children: [
-        ElevatedButton(onPressed: null, child: Text("Video Yükle")),
+        ElevatedButton(
+            onPressed: kameradanVideoYukle, child: const Text("Video Yükle")),
       ],
     );
   }

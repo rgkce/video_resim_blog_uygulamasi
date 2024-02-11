@@ -71,17 +71,24 @@ class _ProfilTasarimiState extends State<ProfilTasarimi> {
   }
 
   baglantiAl() async {
-    // ignore: unused_local_variable
-    String baglanti = await FirebaseStorage.instance
+    final ref = await FirebaseStorage.instance
         .ref()
         .child("profilresimleri")
         .child(auth.currentUser!.uid)
-        .child("profilResmi.png")
-        .getDownloadURL();
+        .listAll();
+    // ignore: unused_local_variable
+    if (ref.items.isNotEmpty) {
+      String baglanti = await FirebaseStorage.instance
+          .ref()
+          .child("profilresimleri")
+          .child(auth.currentUser!.uid)
+          .child("profilResmi.png")
+          .getDownloadURL();
 
-    setState(() {
-      indirmeBaglantisi = baglanti;
-    });
+      setState(() {
+        indirmeBaglantisi = baglanti;
+      });
+    }
   }
 
   kameradanYukle() async {
